@@ -1,0 +1,15 @@
+.bottom-btn{
+    border: none;
+    position: fixed;
+    height: 37px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: orange;
+    font-size: 18px;
+    color: #fff;
+} 
+.position-desc{
+    margin-top: 5px;
+    padding: 15px 10px 10px 10px;
+}

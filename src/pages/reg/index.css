@@ -1,0 +1,36 @@
+.reg{
+    margin-top: 10%;
+    text-align: center;
+}
+.login-cz{
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 12%;
+}
+.x-r{
+    width: 50%;
+    height: 40px;
+    margin-top: 15px;
+}
+.login-cz span{
+    color: orangered;
+    margin-left: 10px;
+} 
+.to-login{
+    margin-top: 20px;
+    width: 60%;
+    height: 40px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    background: green;
+}
+input[type="radio"]{
+    margin-top: 10px;
+    padding-top: 2px;
+} 
+.inputStyle {
+    vertical-align: text-bottom;
+}

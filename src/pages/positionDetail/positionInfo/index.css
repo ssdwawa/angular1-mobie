@@ -1,0 +1,19 @@
+.po-info{
+    padding: 26px 10px 10px 10px;
+    position: relative;
+}
+.star{
+    position: absolute;
+    right: 12%;
+    top: 19%;
+}
+.po-info p{
+    padding: 5px
+}
+.po-info p span{
+    padding-left: 15px
+}
+.alert{
+    font-size: 20px;
+    color: red;
+}

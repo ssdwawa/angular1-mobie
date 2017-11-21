@@ -1,0 +1,26 @@
+.foot {
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid #ccc;
+    
+}
+.foot li{
+    width: 100%;
+    text-align: center;
+    /* background: green; */
+}
+.foot li span{
+    padding-left: 8%;
+}
+.mid{
+    text-align: center;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.active{
+    background: green !important;
+    color: #fff;
+}

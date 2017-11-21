@@ -1,0 +1,30 @@
+<div class="header" work-head></div>
+<div class="addWork">
+        <div class="companyInfo">
+            <input type="text" ng-model="coName" placeholder="公司名称">
+            <input type="text" ng-model="coAdd" placeholder="公司地址">
+            <input type="text" ng-model="coXz" placeholder="公司性质">
+            <input type="text" ng-model="coSta" placeholder="公司现状">
+            <select name="gm" id="gm" ng-model="cogm">
+                <option value="">公司规模</option>
+                <option value="50人以下">50人以下</option>
+                <option value="50－500">50－500人</option>
+                <option value="500－1500">500－1500人</option>
+                <option value="1500人以上">1500人以上</option>
+            </select>
+        </div>
+        <form class="push-img" enctype='multipart/form-data' method='post' action='javascript:;'>
+            <div>
+                <input type="file" id="one-input" accept="image/*" file-model="images" onchange="angular.element(this).scope().imgPreview(this.files)"/>
+            </div>
+            <div>
+                <img id="newImg" />
+                <p>点击上传公司图标</p>
+            </div>
+        </form>
+        
+        <button type="button" class="tj" ng-click="handle()">提交</button>
+        
+        
+    </div>
+<!-- <div class="footer" work-foot></div> -->

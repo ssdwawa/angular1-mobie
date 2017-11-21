@@ -1,0 +1,14 @@
+.title{
+    height: 37px;
+    line-height: 37px;
+    background: orange;
+}
+.title span{
+    padding-left: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+.p-b{
+    text-align: center;
+    margin-left: 34%;
+}

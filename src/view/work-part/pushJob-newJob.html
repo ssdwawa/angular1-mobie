@@ -1,0 +1,19 @@
+<div class="new-job">
+        <p>
+                <input type="text" placeholder="职位名称" ng-model="workName">
+        </p>
+        <p>
+                <input type="text" placeholder="工作性质" ng-model="workXz">
+        </p>
+        <p>
+                <input type="text" placeholder="工资" ng-model="workSalar">
+        </p>
+        <p>
+                <input type="text" placeholder="工作地点" ng-model="workAdd">
+        </p>
+        <textarea class="work-yaoqiu" name="req" id="" cols="50" rows="15" placeholder="工作要求" ng-model="workReq"></textarea>
+       <div>
+                <button type="button" class="com-sub" ng-click="comSub()">提交职位</button>
+       </div>
+       <span style="width:100px" ui-sref="pushJob.jobList" ><a href="">职位列表</a></span>
+</div>

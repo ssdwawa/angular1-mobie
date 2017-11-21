@@ -1,0 +1,116 @@
+.head{
+    background: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 37px;
+    line-height: 37px;
+}
+.head span{
+    padding-left: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+.head button{
+    background: bisque;
+    border: 1px solid bisque;
+    margin-right: 10px;
+}
+
+.foot {
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid #ccc;
+}
+.foot li{
+    width: 100%;
+    text-align: center;
+    background: #f0f0f0;
+}
+.foot li span{
+    padding-left: 8%;
+}
+.mid{
+    text-align: center;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+
+#newImg{
+    width: 120px;
+    height: 120px;
+}
+#one-input{
+    visibility: hidden;
+}
+
+.companyInfo{
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.companyInfo input , .companyInfo select{
+    margin-top: 15px;
+    height: 45px;
+    background: #fff
+}
+.push-img{
+    text-align: center;
+}
+.tj{
+    margin: 0 auto;
+    width: 140px;
+    height: 50px;
+    background: orangered;
+    color: #fff;
+    font-size: 24px;
+}
+.addWork{
+    text-align: center
+}
+.new-job{
+    margin: 0 auto;
+    text-align: center;
+}
+.new-job p{
+    margin-top: 25px;
+}
+.new-job p input{
+    width: 60%;
+    height: 40px;
+}
+.work-yaoqiu{
+    margin-top: 30px;
+}
+.com-sub{
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    background-color: red;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.job-list{
+    width: 100%;
+    height: 95%;
+    overflow: auto;
+    text-align: center;
+}
+.com-icon{
+    width: 80px;
+    height: 80px;
+    border: 1px solid rebeccapurple;
+}
+.job-item{
+    background:#fff;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-around;
+}

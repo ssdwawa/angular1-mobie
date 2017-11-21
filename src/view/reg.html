@@ -1,0 +1,18 @@
+<div class="reg">
+    <h1>注册</h1>
+    <div class="login">
+        <input class="x-r" ng-model="acc" type="text" ng-blur="checkeUsername()" placeholder="请输入账号">
+    </div>
+    <div class="pass">
+        <input class="x-r" ng-model="pass" type="password" placeholder="请输入密码">
+    </div>
+    <div class="pass">
+        <input  class="x-r" ng-model="comPass" type="password" placeholder="确认密码">
+    </div>
+    <div>
+        <input class="inputStyle " name="wat" type="radio" value="company" />企业用户
+        <input class="inputStyle " name="wat" type="radio" value="person" checked='true' />个人用户
+    </div>
+    
+    <button type="button" ng-click="reg()" class="to-login">注册</button>
+</div>

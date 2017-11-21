@@ -1,0 +1,25 @@
+.company{
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    display: flex;
+}
+.company img{
+    width: 60px;
+    height: 60px;
+}
+.co-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.l{
+    margin-left: 15px;
+}
+.l-1{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.l-2{
+    margin-top: 10px;
+}

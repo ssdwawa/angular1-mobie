@@ -1,0 +1,40 @@
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background: orange;
+}
+.search button{
+    color: #fff;
+    padding-right: 15px;
+}
+.search input{
+    outline-style: none;
+    padding-left: 15px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+}
+.tab {
+    background: #fff;
+}
+.tab ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+}
+.tab ul li{
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    text-align: center;
+    
+}
+.choice{
+    border-bottom: 2px solid orange;
+}
+.wo{
+    margin-top: 10px;
+}

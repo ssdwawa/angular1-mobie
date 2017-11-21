@@ -1,0 +1,13 @@
+<div class="job-list">
+        <div class="job-item" ng-repeat="item in items">
+            <img class="com-icon" ng-src="{{item.comLogo}}" alt="">
+            <div>
+                    <span>职位名称:{{item.workName}}</span>
+                    <span>职位薪资:{{item.workSalar}}</span>
+                    <span>工作地点:{{item.workAcc}}</span>
+                    <span>工作性质:{{item.workXz}}</span>
+                    <p>职位要求：<pre>{{item.workReq}}</pre></p>
+            </div>
+            
+        </div>
+    </div>

@@ -1,0 +1,9 @@
+.list-info{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.qure-work{
+    font-size: 25px;
+    border-bottom: 1px solid #000;
+}

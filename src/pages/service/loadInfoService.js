@@ -1,0 +1,13 @@
+angular.module('app').factory('loadInfoService',['$http',function($http){
+    return{
+        getCompanyInfo:function(data,resolve){
+            $http.post('/users/checkCompany',{data}).success(resolve)
+        },
+        addWork:function(data,resolve){
+            $http.post('/work/addWork',data).success(resolve)
+        },
+        loadWorkList:function(data,resolve){
+            $http.post('/work/loadWorkList',data).success(resolve)
+        },
+    }
+}])

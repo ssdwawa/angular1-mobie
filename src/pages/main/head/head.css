@@ -1,0 +1,18 @@
+.head{
+    background: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 37px;
+    line-height: 37px;
+}
+.head span{
+    padding-left: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+.head button{
+    background: bisque;
+    border: 1px solid bisque;
+    margin-right: 10px;
+}

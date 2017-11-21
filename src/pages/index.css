@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f6f6f6;
+    font: 12px/1.5 tahoma, arial, Microsoft YaHei, sans-serif;
+}
+li{
+    list-style: none !important;
+}
+.lister{
+    height: 100%;
+}
+.foot{
+    width: 100%;
+    position:fixed; bottom:0; 
+    z-index: 999;
+}
+
+.bg-w{
+    background: #fff;
+}

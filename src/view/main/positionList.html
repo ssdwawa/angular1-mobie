@@ -1,0 +1,10 @@
+<ul class="work-list">
+  <li ui-sref='position({id:item.id})' ng-repeat="item in list">
+   <img ng-src=".{{item.img}}" alt="">
+    <div class="work-info">
+      <h2 class="line line-1">{{item.positionName}}</h2>
+      <p class="line line-2">{{item.companyName}}［{{item.address}}］{{item.job}}</p>
+      <p class="line line-3">{{item.timeup}}</p>
+    </div>
+  </li>
+</ul>
